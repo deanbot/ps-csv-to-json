@@ -22,17 +22,17 @@ Defaults to `\path\to\input\file.json`
 ```ps1
 
 # copy all .csv or .txt files in .\artifacts directory as .json files
-Start
+.\Start.ps1
 
 # copy .csv or .txt file as .json
-Start .\foo\foo.csv
+.\Start.ps1 .\foo\foo.csv
 
 # copy all .csv or .txt files in target directory as .json files
-Start .\foo
+.\Start.ps1 .\foo
 
 # copy all CSV files in foo as json files in bar
-Start .\foo .\bar
+.\Start.ps1 .\foo .\bar
 
 # treat path as csv even though it doesn't have .csv or .txt extension
-Start .\foo
+.\Start.ps1 .\foo
 ```
