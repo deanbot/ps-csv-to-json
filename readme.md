@@ -5,8 +5,12 @@
 `-Path`
 : Directory containing CSVs or CSV file path
 
+Defaults to `.\artifacts\`
+
 `-OutPath`
 : Output Directory for json files or output json filename
+
+Defaults to `\path\to\input\file.json`
 
 `-Force`
 : Treat Path as a csv file even if it doesn't have .csv or .txt extension
