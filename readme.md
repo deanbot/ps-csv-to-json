@@ -1,5 +1,7 @@
 # PowerShell convert csv to json
 
+Convert csv file to json or convert all csv files in a directory to json.
+
 ## Parameters
 
 `-Path`
